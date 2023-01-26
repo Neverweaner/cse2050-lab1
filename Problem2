@@ -1,0 +1,10 @@
+import math
+print('Enter an integer:')
+integer = int(input())
+i=10
+while True:
+    if ((integer / i) >= 1):
+        i=i*10
+    else:
+        print(int(math.log10(int(i/10))+1))
+        break 
