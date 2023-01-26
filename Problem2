@@ -1,6 +1,8 @@
 import math
 print('Enter an integer:')
 integer = int(input())
+if (integer < 0):
+    integer=integer*-1
 i=10
 while True:
     if ((integer / i) >= 1):
